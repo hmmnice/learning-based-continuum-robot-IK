@@ -18,6 +18,10 @@ The robot was designed as a 2D planar tendon-driven continuum robot actuated by 
 
 ## System Overview
 
+## Project Overview
+
+![Physical robot setup](assets/robotics.png)
+
 The project follows this pipeline:
 
 ```text
