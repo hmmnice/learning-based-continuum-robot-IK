@@ -41,7 +41,7 @@ The robot uses a four-motor tendon actuation system controlled through an ESP32/
 Firmware is included in:
 
 ```text
-firmware/motor_controller.ino
+electronics/motor_controller.ino
 ```
 
 ## Data Collection
