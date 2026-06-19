@@ -40,13 +40,16 @@ cad/
 
 ## Electronics and Firmware
 
-The robot uses a four-motor tendon actuation system controlled through an ESP32/Arduino-based controller. The firmware receives serial commands from Python and moves the motors according to the requested tendon/spool changes.
+The robot uses a four-motor tendon actuation system controlled through an ESP32 based controller. The firmware receives serial commands from Python and moves the motors according to the requested tendon/spool changes.
 
 Firmware is included in:
 
 ```text
 electronics/motor_controller.ino
 ```
+<p align="center">
+  <img src="electronics/Electronics-design.png" width="900">
+</p>
 
 ## Data Collection
 
@@ -66,6 +69,9 @@ Data collection code is included in:
 ```text
 data_collection/data_collect.py
 ```
+<p align="center">
+  <img src="assets/image.png" width="600">
+</p>
 
 ## Machine Learning
 
@@ -131,14 +137,13 @@ The obstacle-aware planner demonstrated that full-body shape prediction can help
 ```text
 cad-to-ml-control-soft-robot/
 ├── cad/
-├── firmware/
+├── electronics/
 ├── data_collection/
 ├── models/
 ├── planning/
-├── results/
-├── sample_data/
-└── report/
+└── report.pdf/
 ```
+In-Depths Results have been reported in ```report.pdf```
 
 ## Tech Stack
 
